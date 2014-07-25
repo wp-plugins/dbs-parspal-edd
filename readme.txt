@@ -31,3 +31,6 @@ Some of the features:
 
 = 1.1 =
 * Fix some errors.
+
+= 1.2 =
+* Remove IRI and IRT decimals.
