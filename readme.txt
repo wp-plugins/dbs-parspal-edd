@@ -27,3 +27,7 @@ Some of the features:
 
 = 1.0 =
 * Just getting started!
+
+
+= 1.1 =
+* Fix some errors.

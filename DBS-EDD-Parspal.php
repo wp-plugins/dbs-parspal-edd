@@ -3,7 +3,7 @@
 /*
 	Plugin Name: DBS Parspal EDD - درگاه پرداخت پارس پال 
 	Plugin URI: http://www.dbstheme.com/?s=parspal
-	Version: 1.0
+	Version: 1.1
 	Description: درگاه بهینه سازی شده پارس پال برای افزونه ایزی دیجیال داونلودز.
 	Author: دی بی اس تم
 	Author URI: www.dbstheme.com
@@ -32,13 +32,6 @@ function IRT_format($formatted, $currency, $price) {
 }
 add_filter( 'edd_irt_currency_filter_after', 'IRT_format', 10, 3 );
 add_filter( 'edd_irt_currency_filter_before', 'IRT_format', 10, 3 );
-
-
-function iran_decimal_remove($formatted, $amount, $decimals, $decimal_sep, $thousands_sep) {
-	return $amount;
-}
-add_filter( 'edd_format_amount', 'iran_decimal_remove', 10, 3 );
-
 
 function add_iran_gateway($gateways) {
 	$gateways['parspal'] = array(
