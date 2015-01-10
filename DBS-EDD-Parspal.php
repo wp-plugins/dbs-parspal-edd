@@ -1,7 +1,7 @@
 <?php
 
 /*
-	Plugin Name: DBS Parspal EDD - درگاه پرداخت پارس پال 
+	Plugin Name: DBS-EDD-ParspalGateway
 	Plugin URI: http://www.dbstheme.com/?s=parspal
 	Version: 1.2
 	Description: درگاه بهینه سازی شده پارس پال برای افزونه ایزی دیجیال داونلودز.
